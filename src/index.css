@@ -41,6 +41,10 @@ nav {
   background-repeat: no-repeat;
   background-size: cover;
   height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .hero h2 {
@@ -48,6 +52,20 @@ nav {
   font-size: 2rem;
   text-align: center;
   padding-top: 70px;
+}
+
+.search {
+  width: 250px;
+  height: 30px;
+  margin: 10px;
+  border-radius: 4px;
+  outline: none;
+  background: #b3abab;
+  border: 1px solid #9b4242;
+  padding-left: 10px;
+  font-size: 1rem;
+  color: #9b4242;
+  font-family: inherit;
 }
 
 .movie-container {
@@ -68,6 +86,8 @@ nav {
 
 .movie img {
   width: 100%;
+  object-fit: cover;
+  height: 450px;
 }
 
 .movie-info {
@@ -100,4 +120,20 @@ nav {
 
 .movie:hover .movie-over {
   transform: translateY(0%);
+}
+
+.tag {
+  background-color: #5a5858;
+  border-radius: 4px;
+  padding: 0.5rem;
+}
+
+.tag.green {
+  color: #0e770e;
+}
+.tag.orange {
+  color: #ffa500;
+}
+.tag.red {
+  color: #e40909;
 }
