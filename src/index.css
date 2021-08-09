@@ -1,8 +1,16 @@
 /* Global */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+body {
+  background: #b3abab;
+  font-family: "Poppins", sans-serif;
 }
 
 ul {
@@ -15,7 +23,7 @@ a {
 
 nav {
   height: 80px;
-  background: #5c5757;
+  background: #9b4242;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -39,5 +47,5 @@ nav {
   color: #ffffff;
   font-size: 2rem;
   text-align: center;
-  padding-top: 50px;
+  padding-top: 70px;
 }
