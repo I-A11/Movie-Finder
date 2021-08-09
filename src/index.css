@@ -22,7 +22,7 @@ a {
 }
 
 nav {
-  height: 80px;
+  height: 100px;
   background: #9b4242;
   display: flex;
   justify-content: center;
@@ -76,12 +76,14 @@ nav {
 }
 .movie {
   width: 250px;
+  height: auto;
   margin-top: 15px;
   background: #b3abab;
   border-radius: 4px;
   overflow: hidden;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
   position: relative;
+  margin: 50px 0;
 }
 
 .movie img {
@@ -136,4 +138,13 @@ nav {
 }
 .tag.red {
   color: #e40909;
+}
+
+.footer-container {
+  height: 150px;
+  background: #9b4242;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
 }
