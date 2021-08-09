@@ -40,7 +40,7 @@ nav {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 400px;
+  height: 250px;
 }
 
 .hero h2 {
@@ -48,4 +48,19 @@ nav {
   font-size: 2rem;
   text-align: center;
   padding-top: 70px;
+}
+
+.movie-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-column-gap: 10px;
+  justify-items: center;
+}
+.movie {
+  width: 300px;
+  margin-top: 15px;
+}
+
+.movie img {
+  width: 100%;
 }
